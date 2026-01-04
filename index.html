@@ -97,15 +97,18 @@ pre.question {
 
         <!-- Vận dụng 1 -->
         <h3>1. Vận dụng 1 – Đề bài</h3>
-        <p>Hãy chỉ ra các bước cần thực hiện để sử dụng một màu trong ảnh làm màu tiêu đề bài thơ.</p>
+        <p>Giả sử nội dung trang web của em có rất nhiều thẻ p, trong đó có ba đoạn mà em thấy quan trọng nhất, kí hiệu các đoạn này là P1, P2, P3. Có cách nào thiết lập định dạng CSS để có thể định dạng P1 khác biệt, P2 và P3 có cùng kiểu và cũng khác biệt không? Tất cả các đoạn còn lại có định dạng giống nhau. Hãy nêu cách giải quyết vấn đề của em.</p>
 
         <h3>Bài giải</h3>
 
         <pre>
-1. Chọn màu cụ thể trong ảnh bằng công cụ chọn màu.
-2. Chọn ảnh nền muốn dùng.
-3. Tạo tiêu đề bằng thẻ &lt;h1&gt;, &lt;h2&gt; hoặc &lt;h3&gt;.
-4. Dùng thuộc tính color trong CSS để áp màu đó vào tiêu đề.
+Cách giải quyết:
+
+- Gắn một lớp tên riêng cho P1, ví dụ: <p class="important">Đoạn P1</p>. Đây là lớp tên dùng để định dạng đoạn P1.
+
+- Gắn cùng một lớp tên cho P2 và P3, ví dụ: <p class="normal">Đoạn P2</p> và <p class="normal">Đoạn P3</p>. Đây là lớp tên dùng để định dạng đoạn P2 và P3.
+
+- Sử dụng CSS để áp dụng các định dạng khác biệt cho các lớp tên tương ứng.
         </pre>
 
 
