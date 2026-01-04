@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 16</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background:#f4f6ff;
+            margin:0;
+            padding:20px;
+            line-height:1.6;
+        }
+
+        h1, h2, h3 {
+            color:#2f4c9c;
+            margin-top:25px;
+        }
+
+        .card {
+            background:white;
+            padding:18px;
+            border-radius:14px;
+            margin-top: 25px;
+            box-shadow:0 2px 6px rgba(0,0,0,0.1);
+        }
+        pre {
+    background:#eef2ff;        /* Bài giải nền xanh */
+    padding:14px;
+    border-radius:10px;
+    white-space:pre-wrap;
+    font-family: Consolas, monospace;
+    margin-top: 12px;
+}
+
+/* Đề bài => giống style II. Vận dụng (nền trắng, viền nhẹ) */
+pre.question {
+    background:white !important;
+    border:1px solid #dde3ff;
+    padding:14px;
+    border-radius:10px;
+    white-space:pre-wrap;
+    font-family: Consolas, monospace;
+    margin-top: 12px;
+}
+
+        .boxed {
+            border:2px solid #2f5bb7;
+            padding:14px;
+            border-radius:10px;
+            background:#f8fbff;
+            font-family: Consolas, monospace;
+            white-space:pre-wrap;
+        }
+
+        img {
+            max-width:100%;
+            margin-top:12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Bài 8</h1>
+
+    <!-- ==================== -->
+    <!--      I. LUYỆN TẬP   -->
+    <!-- ==================== -->
+    <section class="card">
+        <h2>I. Luyện tập</h2>
+
+        <!-- Luyện tập 1 -->
+        <h3>1. Luyện tập 1 – Đề bài</h3>
+        <p>Phần tử html có thể ẩn đi trên trang web được không? Nếu có thì dùng lệnh CSS gì?</p>
+       <h3>Bài giải</h3>
+<p>Có, phần tử HTML có thể được ẩn đi trên trang web bằng cách sử dụng lệnh CSS display: none</p>
+
+<!-- Luyện tập 2 -->
+<h3>2. Luyện tập 2 – Đề bài</h3>
+<p>Trình bày đoạn văn bản sau bằng mã HTML:</p>
+<pre class="question">
+    INTERNET TỐC ĐỘ CAO
+    Dịch vụ Internet tốc độ cao là dịch vụ internet cáp quang chất lượng cao, ổn định, giá cả hợp lí. 
+    Các tính năng nổi bật: 
+    - Tốc độ siêu cao từ 150 MBps trở lên
+    - Lắp đặt nhanh chóng trong 24h
+    - Phù hợp với cá nhân/Hộ gia đình
+    - Tặng modem 2 băng tần
+    - Miễn phí lắp đặt
+    - Hỗ trợ 24/7
+</pre>
+    <h3>Bài giải</h3>
+<pre>
+&lt;p&gt;INTERNET TỐC ĐỘ CAO&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;Dịch vụ Internet tốc độ cao là dịch vụ Internet cáp quang chất lượng cao, ổn định, giá cả hợp lí.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Các tính năng nổi bật:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Tốc độ siêu cao từ 150 MBps trở lên&lt;/p&gt;
+&lt;p&gt;Lắp đặt nhanh chóng trong 24h&lt;/p&gt;
+&lt;p&gt;Phù hợp với cá nhân/Hộ gia đình&lt;/p&gt;
+&lt;p&gt;Tặng Modem 2 băng tần&lt;/p&gt;
+&lt;p&gt;Miễn phí lắp đặt&lt;/p&gt;
+&lt;p&gt;Hỗ trợ 24/7&lt;/p&gt;
+</pre>
+
+    </section>
+
+
+
+    <!-- ==================== -->
+    <!--       II. VẬN DỤNG   -->
+    <!-- ==================== -->
+    <section class="card">
+        <h2>II. Vận dụng</h2>
+
+        <!-- Vận dụng 1 -->
+        <h3>1. Vận dụng 1 – Đề bài</h3>
+        <p>Hãy chỉ ra các bước cần thực hiện để sử dụng một màu trong ảnh làm màu tiêu đề bài thơ.</p>
+
+        <h3>Bài giải</h3>
+
+        <pre>
+1. Chọn màu cụ thể trong ảnh bằng công cụ chọn màu.
+2. Chọn ảnh nền muốn dùng.
+3. Tạo tiêu đề bằng thẻ &lt;h1&gt;, &lt;h2&gt; hoặc &lt;h3&gt;.
+4. Dùng thuộc tính color trong CSS để áp màu đó vào tiêu đề.
+        </pre>
+
+
+        <!-- Vận dụng 2 -->
+        <h3>2. Vận dụng 2 – Đề bài</h3>
+        <p>Hãy đưa ra định dạng HTML để được kết quả như hình sau:</p>
+
+        <img src="d475739a-8dcb-4eb7-9293-44f6d50e17ea.png">
+
+        <h3>Bài giải</h3>
+
+        <pre>
+&lt;p style="font-size:150%"&gt;
+0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;&lt;br&gt;
+0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;&lt;br&gt;
+0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;&lt;br&gt;
+0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0&lt;/sup&gt;0
+&lt;/p&gt;
+        </pre>
+
+    </section>
+
+</body>
+</html>
+
+</html>
